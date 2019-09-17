@@ -45,10 +45,12 @@ export class AppComponent implements OnInit {
   setTheme(myTheme) {
     window.localStorage.setItem('theme', JSON.stringify(myTheme));
     let link = document.getElementById("css-theme");
+    console.log('TCE: AppComponent -> setTheme -> link', link);
     if (link) {
       link['href'] = myTheme.url;
     } else {
       let node = document.createElement('link');
+      console.log('TCE: AppComponent -> setTheme -> node', node);
       node.href = myTheme.url; // insert url in between quotes
       node.rel = 'stylesheet';
       node.id = 'css-theme';
