@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: rgb(25, 104, 67);
-  --main-color: rgb(59, 109, 13);
-  --pane-padding: 5px 42px;
+  --main-bg-color: rgb(25, 104, 67) !default;
+  --main-color: rgb(59, 109, 13) !default;
+  --pane-padding: 5px 42px !default;
 }
