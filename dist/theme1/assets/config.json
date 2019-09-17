@@ -1,0 +1,9 @@
+{
+    "url": {
+        "apiUrl": "http://localhost:58357/"
+    },
+    "theme": {
+        "name": "light",
+        "url": "./assets/theme_light.css"
+    }
+}
